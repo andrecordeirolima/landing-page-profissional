@@ -1,6 +1,6 @@
 export const siteData = {
-  businessName: "Bem Estar Podologia",
-  niche: "Podologia",
+  businessName: "Daiane Lobo Podóloga",
+  niche: "Podóloga",
   city: "Jacarezinho - PR",
 
   whatsappNumber: "5543999999999",

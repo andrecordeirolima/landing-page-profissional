@@ -1,9 +1,13 @@
+import Header from "./sections/Header"
+import Hero from "./sections/Hero"
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-zinc-950 text-white flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        Landing Page Profissional
-      </h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Hero />
+      </main>
+    </>
   )
 }
