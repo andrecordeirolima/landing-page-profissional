@@ -57,4 +57,33 @@ export const siteData = {
       description: "Tecnologia auxiliar em tratamentos podológicos.",
     },
   ],
+
+  gallery: [
+  {
+    title: "Ambiente acolhedor",
+    description: "Espaço preparado para oferecer conforto e tranquilidade.",
+    image:
+      "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=1200&auto=format&fit=crop",
+    alt: "Ambiente profissional e acolhedor",
+  },
+
+  {
+    title: "Atendimento profissional",
+    description: "Cuidado e atenção em cada detalhe do atendimento.",
+    image:
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1200&auto=format&fit=crop",
+    alt: "Profissional realizando atendimento",
+  },
+
+  {
+    title: "Estrutura organizada",
+    description: "Ambiente limpo, seguro e pensado para você.",
+    image:
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop",
+    alt: "Estrutura moderna e organizada",
+  },
+],
+
+
+
 }
