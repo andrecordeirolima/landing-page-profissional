@@ -11,9 +11,9 @@ export default function Header() {
     <header className="border-b border-zinc-200 bg-white">
       <Container className="flex h-20 items-center justify-between">
         <div>
-          <strong className="block text-lg font-bold text-rose-600">
-            {siteData.businessName}
-          </strong>
+          <strong className="block text-base font-bold text-rose-600 sm:text-lg">
+  {siteData.businessName}
+</strong>
           <span className="text-xs uppercase tracking-widest text-zinc-500">
             {siteData.niche}
           </span>

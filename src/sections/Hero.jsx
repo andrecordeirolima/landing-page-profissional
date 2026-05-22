@@ -11,13 +11,13 @@ export default function Hero() {
     <section className="bg-white py-14 sm:py-20">
       <Container className="grid items-center gap-10 lg:grid-cols-2">
         <div>
-          <p className="mb-4 text-xs font-bold uppercase tracking-[0.25em] text-rose-600">
-            {siteData.hero.eyebrow}
-          </p>
+          <p className="mb-4 text-xs font-bold uppercase tracking-[0.15em] text-rose-600 sm:tracking-[0.25em]">
+  {siteData.hero.eyebrow}
+</p>
 
           <h1 className="max-w-2xl text-4xl font-black tracking-tight text-zinc-950 sm:text-5xl lg:text-6xl">
-            {siteData.hero.title}
-          </h1>
+  {siteData.hero.title}
+</h1>
 
           <p className="mt-6 max-w-xl text-base leading-7 text-zinc-600 sm:text-lg">
             {siteData.hero.description}
