@@ -8,7 +8,7 @@ export default function FinalCTA() {
   )}`
 
   return (
-    <section className="bg-rose-600 py-16 sm:py-20">
+    <section id="contact" className="bg-rose-600 py-16 sm:py-20">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-rose-100">

@@ -3,7 +3,7 @@ import { siteData } from "../data/siteData"
 
 export default function Gallery() {
   return (
-    <section className="bg-white py-16 sm:py-20">
+    <section id="gallery" className="bg-white py-16 sm:py-20">
       <Container>
         <div className="max-w-2xl lg:max-w-3xl">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-rose-600">
