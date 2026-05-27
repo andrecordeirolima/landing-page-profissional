@@ -16,9 +16,27 @@ export default function Footer() {
             </p>
           </div>
 
-          <p className="text-sm text-zinc-400">
-            © {new Date().getFullYear()} {siteData.businessName}. Todos os direitos reservados.
-          </p>
+          <div className="flex flex-col items-start gap-4 md:items-end">
+            <p className="text-sm text-zinc-400">
+              © {new Date().getFullYear()} {siteData.businessName}. Todos os direitos reservados.
+            </p>
+
+            <div className="flex gap-4 text-sm text-zinc-400">
+              <a
+                href="/politica-de-privacidade.html"
+                className="hover:text-white"
+              >
+                Política de Privacidade
+              </a>
+
+              <a
+                href="/termos-de-uso.html"
+                className="hover:text-white"
+              >
+                Termos de Uso
+              </a>
+            </div>
+          </div>
         </div>
       </Container>
     </footer>
